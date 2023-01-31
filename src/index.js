@@ -13,6 +13,8 @@ const server = new GraphQLServer({
 
 const options = {
   port: 3000,
+  endpoint: '/graphql',
+  playground: '/playground',
 };
 
 server.start(options, ({ port }) => {
