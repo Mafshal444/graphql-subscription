@@ -11,6 +11,7 @@ const server = new GraphQLServer({
   },
 });
 
+// here i changed the endpoint and playground url as well...
 const options = {
   port: 3000,
   endpoint: '/graphql',
